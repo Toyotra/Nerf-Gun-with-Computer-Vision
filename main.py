@@ -5,7 +5,6 @@ import imutils
 import supervision
 import torch
 import modelCV
-import essentials
 import time
 import ArduinoCode
 from ultralytics import YOLO
@@ -81,8 +80,6 @@ def main():
         screen.blit(frame, (400, 50))
 
 
-
-        #a = essentials.buttonValIncrease(but1, but2, [mx, my], [100, 100], screen, mouseHold)
 
         pygame.display.flip()
 
